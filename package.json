@@ -1,6 +1,6 @@
 {
   "name": "@amendable/expand-style-shorthands",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/commonjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
@@ -29,6 +29,8 @@
     "build-esm": "NODE_ENV=production BABEL_ENV=esm babel src --out-dir dist/esm --config-file ./babel.config.js"
   },
   "dependencies": {
-    "inline-style-expand-shorthand": "^1.1.1"
+    "inline-style-expand-shorthand": "^1.1.1",
+    "is-number": "^7.0.0",
+    "lodash": "^4.17.11"
   }
 }
