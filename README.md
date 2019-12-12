@@ -16,7 +16,7 @@ render(
       inlineStyles()
     ]}
   >
-    <Box padding={1}>
+    <Box padding='10px' backgroundColor='black' color='white'>
       Padding is expanded on the DOM node
     </Box>
   </AmendableProvider>
