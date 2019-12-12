@@ -7,11 +7,13 @@ This expands style shorthand syntax (`padding: 1`) into long-hand syntax (`paddi
 import { render } from 'react-dom'
 import Box, { AmendableProvider } from '@amendable/core'
 import expandStyleShorthands from '@amendable/expand-style-shorthands'
+import inlineStyles from '@amendable/inline-styles'
 
 render(
   <AmendableProvider
     resolvers={[
       expandStyleShorthands(),
+      inlineStyles()
     ]}
   >
     <Box padding={1}>
