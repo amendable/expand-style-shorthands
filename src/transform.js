@@ -1,8 +1,8 @@
-import _ from 'lodash'
-import isNumber from 'is-number'
+import _ from 'lodash';
+import isNumber from 'is-number';
 
 export default (val) => {
-  if (!isNumber(val)) return val
+  if (!isNumber(val)) return val;
 
-  return _.toNumber(val)
-}
+  return _.toNumber(val);
+};
